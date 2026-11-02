@@ -1,4 +1,10 @@
-# Compiled Executables
+# Compiled Executables & Objects
 *.exe
 *.o
 *.obj
+
+# Theory and Viva documents (Local only - Not uploaded to GitHub)
+*.docx
+*.pdf
+viva/
+docs/
