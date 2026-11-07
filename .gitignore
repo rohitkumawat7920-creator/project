@@ -3,6 +3,10 @@
 *.o
 *.obj
 
+# IDE and Editor settings
+.vscode/
+.idea/
+
 # Theory and Viva documents (Local only - Not uploaded to GitHub)
 *.docx
 *.pdf

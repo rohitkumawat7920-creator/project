@@ -1,0 +1,171 @@
+/* ======================================================
+   Basic CSS Styles for Parking Management System
+   Clean, simple, and easy to understand
+   ====================================================== */
+
+/* Basic page reset and font */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Centered container */
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+/* Main headings */
+h1 {
+    text-align: center;
+    color: #1e3a8a;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+/* Reusable Card styling for each module */
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.module h2 {
+    margin-top: 0;
+    color: #2563eb;
+    font-size: 18px;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 8px;
+}
+
+/* Module 1: Counter Box */
+.counter-box {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.status-item {
+    background-color: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    padding: 10px 20px;
+    width: 25%;
+}
+
+.status-item h3 {
+    margin: 0;
+    font-size: 14px;
+    color: #64748b;
+}
+
+.status-item p {
+    margin: 8px 0 0 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1e293b;
+}
+
+/* Notification Message styling */
+.message {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.msg-success {
+    background-color: #dcfce7;
+    color: #166534;
+}
+
+.msg-error {
+    background-color: #fee2e2;
+    color: #991b1b;
+}
+
+/* Form inputs */
+.form-group {
+    margin-bottom: 12px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input[type="text"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Buttons */
+button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Red button for removing */
+.btn-danger {
+    background-color: #dc2626;
+}
+
+.btn-danger:hover {
+    background-color: #b91c1c;
+}
+
+/* Module 4: Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #e2e8f0;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+th {
+    background-color: #f1f5f9;
+    color: #334155;
+}
+
+tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+.empty-text {
+    color: #94a3b8;
+    font-style: italic;
+}
